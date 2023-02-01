@@ -1,4 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap'
+import watchitImg from '../assets/img/watchit.png'
 import projImg from '../assets/img/project-img3.png'
 import ProjectCard from './ProjectCard'
 import Nav from 'react-bootstrap/Nav'
@@ -8,34 +9,34 @@ import colorSharp2 from '../assets/img/color-sharp2.png'
 function Projects() {
   const projects = [
     {
-      title: 'project 1',
-      description: 'Web Development',
-      imgUrl: projImg,
+      title: 'Watchit',
+      description: 'Video Steaming Platform',
+      imgUrl: watchitImg,
     },
     {
       title: 'project 2',
       description: 'Web Development',
-      imgUrl: projImg,
+      imgUrl: watchitImg,
     },
     {
       title: 'project 3',
       description: 'Web Development',
-      imgUrl: projImg,
+      imgUrl: watchitImg,
     },
     {
       title: 'project 4',
       description: 'Web Development',
-      imgUrl: projImg,
+      imgUrl: watchitImg,
     },
     {
       title: 'project 5',
       description: 'Web Development',
-      imgUrl: projImg,
+      imgUrl: watchitImg,
     },
     {
       title: 'project 6',
       description: 'Web Development',
-      imgUrl: projImg,
+      imgUrl: watchitImg,
     },
   ]
 
